@@ -1,0 +1,72 @@
+﻿@inject Shared.Application.Services.Auth.IAuthService _auth;
+<header class="main-header">
+    <a href="/Admin" class="logo">
+        <span class="logo-mini">پنل</span>
+        <span class="logo-lg"><b>کنترل پنل مدیریت</b></span>
+    </a>
+    <nav class="navbar navbar-static-top">
+        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+            <span class="sr-only">Toggle navigation</span>
+        </a>
+        <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+                <li class="dropdown messages-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-envelope-o"></i>
+                        <span class="label label-success" id="UlMessageNotificationsHeaderspan"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="header" id="UlMessageNotificationsHeader"></li>
+                        <li>
+                            <!-- inner menu: contains the actual data -->
+                            <ul class="menu" id="UlMessageNotifications">
+                            </ul>
+                        </li>
+                        <li class="footer"><a href="/Admin/Message/Index">نمایش تمام پیام ها</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown notifications-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-bell-o"></i>
+                        <span class="label label-warning" id="UlNotificationsHeaderspan"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="header" id="UlNotificationsHeader"></li>
+                        <li>
+                            <!-- inner menu: contains the actual data -->
+                            <ul class="menu" id="UlNotifications">
+                               
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+               
+                <li class="dropdown user user-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="/Images/User/100/@_auth.GetLoginUserAvatar()" class="user-image" alt="User Image">
+                        <span class="hidden-xs">@_auth.GetLoginUserFullName()</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!-- User image -->
+                        <li class="user-header">
+                            <img src="/Images/User/100/@_auth.GetLoginUserAvatar()" class="img-circle" alt="User Image">
+
+                            <p>
+                                @_auth.GetLoginUserFullName()
+                            </p>
+                        </li>
+                        <!-- Menu Footer-->
+                        <li class="user-footer">
+                            <div class="pull-right">
+                                <a href="/UserPanel" class="btn btn-default btn-flat">پروفایل</a>
+                            </div>
+                            <div class="pull-left">
+                                <a href="/Auth/Logout" class="btn btn-default btn-flat">خروج</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>

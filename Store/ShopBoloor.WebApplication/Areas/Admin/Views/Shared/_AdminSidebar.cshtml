@@ -1,0 +1,223 @@
+﻿@inject IHttpContextAccessor _accessor;
+@inject Shared.Application.Services.Auth.IAuthService _auth;
+@{
+    var route = _accessor.HttpContext.Request.Path;
+}
+<aside class="main-sidebar">
+    <section class="sidebar">
+        <div class="user-panel">
+            <div class="pull-right image">
+                <img src="/Images//User//100/@_auth.GetLoginUserAvatar()" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-right info">
+                <p>@_auth.GetLoginUserFullName()</p>
+                <a><i class="fa fa-circle text-success"></i> آنلاین</a>
+            </div>
+        </div>
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">منو</li>
+            <li class="@(route.ToString().ToLower().Trim() == "/admin" ? "active" : "") treeview">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i> <span>داشبرد</span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="/"><i class="fa fa-home"></i> صفحه اصلی سایت</a></li>
+                    <li class=@(route.ToString().ToLower().Trim() == "/admin" ? "active" : "")>
+                        <a href="/Admin"><i class="fa fa-dashboard"></i>  صفحه اصلی ادمین</a>
+                    </li>
+                    <li><a href="/UserPanel"><i class="fa fa-user"></i>  پنل کاربری</a></li>
+                    
+                </ul>
+            </li>
+            <li class="@(route.ToString().ToLower().Trim().Contains("/admin/role") 
+             || route.ToString().ToLower().Trim().Contains("/admin/user") ? "active" : "") treeview">
+                <a href="#">
+                    <i class="fa fa-user"></i> <span>مدیریت کاربران</span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/role") ? "active" : "")>
+                        <a href="/Admin/Role"><i class="fa fa-user-secret"></i>  سطوح دسترسی</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/user") ? "active" : "")>
+                        <a href="/Admin/User"><i class="fa fa-users"></i>  کاربران سایت</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="@(route.ToString().ToLower().Trim().Contains("/admin/seller")
+             || route.ToString().ToLower().Trim().Contains("/admin/sell") ? "active" : "") treeview">
+                <a href="#">
+                    <i class="fa fa-shopping-bag"></i> <span>مدیریت فروشگاه ها</span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class=@(route.ToString().ToLower().Trim() =="/admin/seller/index" || route.ToString().ToLower().Trim() =="/admin/seller" ? "active" : "")>
+                        <a href="/Admin/Seller/Index"><i class="fa fa-shopping-bag"></i> فروشگاه ها</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/seller/requ") ? "active" : "")>
+                        <a href="/Admin/Seller/Requests"><i class="fa fa-shopping-cart"></i>  در خواست های فروشگاه</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="@(route.ToString().ToLower().Trim().Contains("/admin/order") ? "active" : "") treeview" >
+                <a href="#">
+                    <i class="fa fa-paypal"></i> <span>مدیریت سفارشات</span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class=@(route.ToString().ToLower().Trim() =="/admin/order/index" ||
+                    route.ToString().ToLower().Trim() =="/admin/order" ? "active" : "") >
+                        <a href="/Admin/Order"><i class="fa fa-paypal"></i> سفارشات</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="@(route.ToString().ToLower().Trim().Contains("/admin/product")
+              ? "active" : "") treeview">
+                <a href="#">
+                    <i class="fa fa-product-hunt"></i> <span>مدیریت محصولات</span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/productcategory") ? "active" : "")>
+                        <a href="/Admin/ProductCategory/Index/0"><i class="fa fa-newspaper-o"></i>  دسته بندی محصولات</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/product/") ? "active" : "")>
+                        <a href="/Admin/Product/Index/0"><i class="fa fa-product-hunt"></i>  مدیریت محصولات</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="@(route.ToString().ToLower().Trim().Contains("/admin/orderdiscount")
+              ? "active" : "") treeview">
+                <a href="#">
+                    <i class="fa fa-percent"></i> <span>مدیریت تخفیفات</span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/orderdiscount/active") ? "active" : "")>
+                        <a href="/Admin/OrderDiscount/Active"><i class="fa fa-percent"></i>  تخفیفات فعال</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/orderdiscount/inactive") ? "active" : "")>
+                        <a href="/Admin/OrderDiscount/InActive"><i class="fa fa-percent"></i>  تخفیفات غیر فعال</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="@(route.ToString().ToLower().Trim().Contains("/admin/blog")
+              ? "active" : "") treeview">
+                <a href="#">
+                    <i class="fa fa-newspaper-o"></i> <span>مدیریت مقالات</span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/blogcategory") ? "active" : "")>
+                        <a href="/Admin/BlogCategory/Index/0"><i class="fa fa-newspaper-o"></i>  دسته بندی مقالات</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/blog/") ? "active" : "")>
+                        <a href="/Admin/Blog/Index/0"><i class="fa fa-newspaper-o"></i>  مدیریت مقالات</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="@(route.ToString().ToLower().Trim().Contains("/admin/post")
+            || route.ToString().ToLower().Trim().Contains("/admin/state")
+            || route.ToString().ToLower().Trim().Contains("/admin/package")
+            || route.ToString().ToLower().Trim().Contains("/admin/city")
+              ? "active" : "") treeview">
+                <a href="#">
+                    <i class="fa fa-ship"></i> <span>مدیریت پست</span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/post") ? "active" : "")>
+                        <a href="/Admin/Post/Index"><i class="fa fa-ship"></i>  مدیریت پست</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/state/") ? "active" : "")>
+                        <a href="/Admin/State/Index"><i class="fa fa-map-o"></i>  مدیریت استان ها</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/package") ? "active" : "")>
+                        <a href="/Admin/Package/Index"><i class="fa fa-shopping-basket"></i>  مدیریت پکیج های فروش پست</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/post/setting") ? "active" : "")>
+                        <a href="/Admin/Post/Setting"><i class="fa fa-gear"></i>  تنظیمات پست</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="@(route.ToString().ToLower().Trim().Contains("/admin/emailUser")
+            || route.ToString().ToLower().Trim().Contains("/admin/sendemail")
+            || route.ToString().ToLower().Trim().Contains("/admin/message")
+              ? "active" : "") treeview">
+                <a href="#">
+                    <i class="fa fa-envelope-open"></i> <span>مدیریت خبرنامه</span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/post") ? "active" : "")>
+                        <a href="/Admin/EmailUser/Index"><i class="fa fa-mail-reply"></i>  ایمیل های خبرنامه</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/state/") ? "active" : "")>
+                        <a href="/Admin/SendEmail/Index"><i class="fa fa-mail-forward"></i>  ایمیل های ارسالی</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/state/") ? "active" : "")>
+                        <a href="/Admin/Message/Index"><i class="fa fa-comment"></i>  پیام های ارسالی</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="@(route.ToString().ToLower().Trim().Contains("/admin/site")
+            || route.ToString().ToLower().Trim().Contains("/admin/baner")
+            || route.ToString().ToLower().Trim().Contains("/admin/slider")
+            || route.ToString().ToLower().Trim().Contains("/admin/service")
+            || route.ToString().ToLower().Trim().Contains("/admin/menu")
+              ? "active" : "") treeview">
+                <a href="#">
+                    <i class="fa fa-gear"></i> <span>تنظیمات سایت</span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/site") ? "active" : "")>
+                        <a href="/Admin/Site/Index"><i class="fa fa-gear"></i> تنظیمات سایت</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/baner/") ? "active" : "")>
+                        <a href="/Admin/Baner/Index"><i class="fa fa-image"></i>  مدیریت بنر ها</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/slider/") ? "active" : "")>
+                        <a href="/Admin/Slider/Index"><i class="fa fa-sliders"></i>  مدیریت اسلایدر</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/siteservice/") ? "active" : "")>
+                        <a href="/Admin/SiteService/Index"><i class="fa fa-circle-o"></i>  مدیریت خدمات</a>
+                    </li>
+                    <li class=@(route.ToString().ToLower().Trim().Contains("/admin/menu/") ? "active" : "")>
+                        <a href="/Admin/Menu/Index"><i class="fa fa-circle-o"></i>  مدیریت منو</a>
+                    </li>
+                </ul>
+            </li>
+            <li class=@(route.ToString().ToLower().Trim().Contains("/admin/image") ? "active" : "")>
+                <a href="/Admin/Site/Images"><i class="fa fa-image"></i> <span>عکس های آپلود شده</span></a>
+                </li>
+            <li class=@(route.ToString().ToLower().Trim().Contains("/admin/sitepage") ? "active" : "")>
+                <a href="/Admin/SitePage/Index"><i class="fa fa-book"></i> <span>مدیریت صفحات</span></a>
+            </li>
+            <li class=@(route.ToString().ToLower().Trim().Contains("/admin/comment") ? "active" : "")>
+                <a href="/Admin/Comment/UnSeen"><i class="fa fa-comment"></i> <span>نظرات دیده نشده</span></a>
+            </li>
+        </ul>
+    </section>
+</aside>

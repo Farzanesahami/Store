@@ -1,0 +1,90 @@
+﻿@model List<WebApplication.Test.Models.State>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+  <label>شهر مبدا</label>
+    <select class="form-control" id="sou">
+      @foreach(var item in Model){
+          <optgroup>
+                <option>
+                    <h2>
+                        @item.Name
+                    </h2>
+              </option>
+              @foreach(var sub in item.Cities){
+                  <option value="@sub.CityCode">
+                      @sub.Name
+                  </option>
+              }
+          </optgroup>
+      }
+  </select>
+  <hr />
+    <label>شهر مقصد</label>
+    <select class="form-control" id="des">
+        @foreach (var item in Model)
+        {
+            <optgroup>
+                <option>
+                    <h2>
+                        @item.Name
+                    </h2>
+                </option>
+                @foreach (var sub in item.Cities)
+                {
+                    <option value="@sub.CityCode">
+                        @sub.Name
+                    </option>
+                }
+            </optgroup>
+        }
+    </select>
+    <hr />
+    <label>
+        وزن مرسوله
+    </label>
+    <input class="form-control" id="weight" />
+<hr />
+<a class="btn btn-success" onclick="testAjax()">
+    محاسبه
+</a>
+</div>
+<div class="row text-center" id="responceDiv"> 
+
+</div>
+@section Scripts{
+   <script>
+        $(function () {
+            $("select#sou").select2();
+            $("select#des").select2();
+        })
+        function testAjax(){
+            var divv = $("div#responceDiv");
+            divv.html("");
+            var sourceId = $("select#sou").val();
+            var desId = $("select#des").val();
+            var wei = $("input#weight").val();
+            $.ajax({
+                method:"Post",
+                url: "/Home/GetPrice",
+                data :{
+                    source: sourceId,
+                    destination: desId,
+                    weight: wei
+                }
+            }).done(function (res) {
+                var model = {};
+                model = JSON.parse(res);
+                var nessage = `<h1>${model.Message}<h1>`;
+                divv.append(nessage);
+                model.Prices.forEach(x => {
+                    var test = `<p class="bg-success m-2 p-2"> title : ${x.Title} , status : ${x.Status} , price : ${x.Price}</p>`;
+                    divv.append(test);
+                })
+            });
+        }
+   </script>
+}

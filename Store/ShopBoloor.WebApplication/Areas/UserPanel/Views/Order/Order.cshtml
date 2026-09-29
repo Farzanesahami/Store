@@ -1,0 +1,280 @@
+﻿@model Query.Contract.UserPanel.Order.OrderUserPanelQueryModel
+@using Shared.Domain.Enum;
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "فاکتور یاز شما";
+}
+<style>
+    .table td, .table th{
+        padding:0 !important;
+    }
+</style>
+<main class="cart-page default">
+    <div class="container">
+        <div class="row">
+            <div class="cart-page-content col-xl-9 col-lg-8 col-md-12 order-1">
+                <div class="cart-page-title">
+                    <h1>فاکتور شماره @Model.OrderId</h1>
+                </div>
+                @foreach (var seller in Model.Ordersellers)
+                {
+                    <div class="table-responsive checkout-content default m-2 p-2 border border-1">
+                        <h3 class="text-center"> فروشگاه @seller.SellerTitle</h3>
+                        <table class="table">
+                            <tbody>
+                                @foreach(var item in seller.OrderItems)
+                                {
+                             <tr class="checkout-item">
+                                 <td>
+                                            <img src="@item.ProductImageAddress" alt="@item.ProductTitle" 
+                                            style="max-height:50px !important;max-width:100px !important">
+                                            <button class="checkout-btn-remove" onclick="DeleteOrderItem('@item.ProductSellId','@item.ProductTitle')"></button>
+                                        </td>
+                                 <td>
+                                            <h3 class="checkout-title">
+                                                @item.ProductTitle - @item.Unit
+                                            </h3>
+                                        </td>
+                                 <td>
+                                            <div class="d-flex justify-content-center align-items-center">
+
+                                                <a class="btn btn-sm btn-success mx-1" onclick="OrderItemPlus('@item.Id')">
+                                                    <i class="fa fa-plus"></i>
+                                                </a>
+                                                <span>@item.Count</span>
+                                                @if (item.Count == 1)
+                                                {
+                                                    <a class="btn btn-sm btn-danger mx-1" onclick="DeleteOrderItem('@item.Id','@item.ProductTitle')">
+                                                        <i class="fa fa-minus"></i>
+                                                    </a>
+                                                }
+                                                else
+                                                {
+                                                    <a class="btn btn-sm btn-danger mx-1" onclick="OrderItemMinus('@item.Id')">
+                                                        <i class="fa fa-minus"></i>
+                                                    </a>
+                                                }
+                                            </div>
+                                        </td>
+                                 <td>
+                                            @if(item.Price != item.PriceAfterOff){
+                                                <del class="text-danger">@item.Price.ToString("#,0")</del>
+                                                <span class="text-info">@item.PriceAfterOff.ToString("#,0")</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="text-info">@item.Price.ToString("#,0")</span>
+                                            }
+                                        </td>
+                                 <td>
+                                            @if (item.SumPrice != item.SumPriceAfterOff)
+                                            {
+                                                <del class="text-danger">@item.SumPrice.ToString("#,0")</del>
+                                                <span class="text-info">@item.SumPriceAfterOff.ToString("#,0")</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="text-info">@item.SumPrice.ToString("#,0")</span>
+                                            }
+                                        </td>
+                            </tr>
+                           }
+                                <tr>
+                                    <td colspan="5" class="text-center py-2">
+                                        @if(seller.Price > seller.PriceAfterOff){
+                                            <del class="text-danger"> @seller.Price.ToString("#,0")</del>
+                                            <span> - </span>
+                                            <span class="text-success">@seller.PriceAfterOff.ToString("#,0")</span>
+                                        }
+                                       else{
+                                            <span class="text-success">@seller.Price.ToString("#,0")</span>
+                                       }
+                                        </td>
+                                </tr>
+                                @if (seller.DiscountId > 0)
+                                {
+                                    <tr>
+                                        <td colspan="5" class="text-center py-2">
+                                            <span class="text-success">@seller.DiscountPercent % تخفیف ( @seller.DiscountTitle ) - @seller.DiscountPrice.ToString("#,0") تومان</span>
+                                        </td>
+                                    </tr>
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="5" class="text-center py-2">
+                                            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
+                                                <label>کد تخفیف فروشگاه @seller.SellerTitle : </label>
+                                                <input class="form-control form-control-sm w-50 mx-2" id="discountCode_@seller.SellerId" />
+                                                <button class="btn btn-sm btn-success" onclick="AddOrderSellerDiscount('@seller.SellerId')">
+                                                    افزودن تخفیف
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                                <tr>
+                                    @if (!string.IsNullOrEmpty(seller.PostTitle))
+                                    {
+                                        <td colspan="2" style="align-content: center;" class="text-center py-2"> پست @seller.PostTitle</td>
+                                        <td colspan="2" style="align-content: center;" class="text-center py-2"> هزینه ارسال @seller.PostPrice.ToString("#,0")</td>
+                                        <td class="text-center py-2">
+                                            <button type="button" class="btn btn-info" onclick="OpenPostModal('/UserPanel/Order/CalculatePostPrice/@seller.Id','  تغییر پست برای @seller.SellerTitle')">
+                                                تغییر پست
+                                            </button>
+                                        </td>
+                                    }
+                                    else{
+                                        <td colspan="2" style="align-content: center;" class="text-center py-2"> انتخاب نشده</td>
+                                        <td colspan="2" style="align-content: center;" class="text-center py-2"> هزینه ارسال 0</td>
+                                        <td class="text-center py-2">
+                                            <button type="button" class="btn btn-info" onclick="OpenPostModal('/UserPanel/Order/CalculatePostPrice/@seller.Id','  انتخاب پست برای @seller.SellerTitle')">
+                                                انتخاب پست
+                                            </button>
+                                        </td>
+                                    }
+                                </tr>
+                                <tr>
+                                    <td colspan="5" class="text-center py-2"> مبلغ پرداختی @seller.PaymentPrice.ToString("#,0")</td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+                }
+               
+            </div>
+            <aside class="cart-page-aside col-xl-3 col-lg-4 col-md-6 center-section order-2">
+                <div class="checkout-aside">
+                    <div class="checkout-summary">
+                        <div class="checkout-summary-main">
+                            <ul class="checkout-summary-summary">
+                                <li><span>مبلغ کل محصولات (@Model.Ordersellers.Sum(s => s.OrderItems.Count) کالا)</span><span>@Model.Price.ToString("#,0") تومان</span></li>
+                                <li><span>مبلغ کل با تخفیف </span><span>@Model.PriceAfterOff.ToString("#,0") تومان</span></li>
+                                <li><span>جمع کل </span><span>@Model.PaymentPriceSeller.ToString("#,0") تومان</span></li>
+                                @if(Model.DiscountId > 0){
+                                    <li>
+                                        <span>تخفیف</span>
+                                        <span>@Model.DiscountTitle</span>
+                                    </li>
+                                    <li>
+                                        <span>درصد تخفیف</span>
+                                        <span>@Model.DiscountPercent</span>
+                                    </li>
+                                    <li>
+                                        <span>مبلغ تخفیف</span>
+                                        <span>@Model.DiscountPrice.ToString("#,0")</span>
+                                    </li>
+                                }
+                            </ul>
+                            @if (Model.DiscountId == 0){
+                                <div class="checkout-summary-devider">
+                                    <div></div>
+                                </div>
+                                <div class="d-flex flex-column align-items-center justify-content-center">
+                                     <label class="my-1">کد تخفیف فروشگاه فاکتور : </label>
+                                     <input class="form-control form-control-sm w-75 my-1" id="orderDiscountCode" />
+                                     <span class="my-1 text-danger" id="orderDiscountCodeValid"></span>
+                                     <button class="btn btn-sm btn-success my-2" onclick="AddOrderDiscount()">
+                                         افزودن تخفیف
+                                     </button>
+                                </div>
+                            }
+                            <div class="checkout-summary-devider">
+                                <div></div>
+                            </div>
+                            <div class="checkout-summary-content">
+                                @if (Model.OrderAddress != null)
+                                {
+                                    <ul class="checkout-summary-summary">
+                                    <li>
+                                        <span>شهرستان: </span>
+                                        <span>@Model.OrderAddress.StateName - @Model.OrderAddress.CityName</span>
+                                    </li>
+                                    <li>
+                                        <span>آدرس:</span>
+                                        <span>@Model.OrderAddress.AddressDetail</span>
+                                    </li>
+                                    <li>
+                                        <span>کد پستی:</span>
+                                        <span>@Model.OrderAddress.PostalCode</span>
+                                    </li>
+                                    <li>
+                                        <span>تام کامل:</span>
+                                        <span>@Model.OrderAddress.FullName</span>
+                                    </li>
+                                    <li>
+                                        <span>شماره:</span>
+                                        <span>@Model.OrderAddress.Phone</span>
+                                    </li>
+                                    <li>
+                                        <span>کد ملی:</span>
+                                        <span>@Model.OrderAddress.IranCode</span>
+                                    </li>
+                                    </ul>
+                                    <a style="cursor:pointer;color: #fff !important"
+                                       onclick="OpenFactorModal('/UserPanel/Order/AddOrderAddress',' ثبت آدرس')"
+                                       class="btn btn-warning d-block w-full">
+                                        ویرایش آدرس
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a style="cursor:pointer;color: #fff !important"
+                                       onclick="OpenFactorModal('/UserPanel/Order/AddOrderAddress',' ثبت آدرس')"
+                                       class="btn btn-warning d-block w-full">
+                                        ثبت آدرس
+                                    </a>
+                                }
+                            </div>
+                            <div class="checkout-summary-devider">
+                                <div></div>
+                            </div>
+                            <div class="checkout-summary-content">
+                                <ul class="checkout-summary-summary">
+                                    <li>
+                                        <span>
+                                            <input type="checkbox" checked="@(Model.OrderPayment == OrderPayment.پرداخت_از_درگاه ? "checked":false)"
+                                                   onclick="ChangeOrderPayment('پرداخت_از_درگاه','@Model.OrderPayment.ToString()')" id="GateWayPayment"/>
+                                        </span>
+                                        <span>پرداخت از درگاه</span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <input type="checkbox" checked="@(Model.OrderPayment == OrderPayment.پرداخت_از_کیف_پول ? "checked":false)"
+                                                   onclick="ChangeOrderPayment('پرداخت_از_کیف_پول','@Model.OrderPayment.ToString()')" id="WalletPayment" />
+                                        </span>
+                                        <span>پرداخت از کیف پول</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="checkout-summary-devider">
+                                <div></div>
+                            </div>
+                                <div class="checkout-summary-content">
+                                
+                            <ul class="checkout-summary-summary">
+                                <li>
+                                    <span>هزینه ارسال</span>
+                                    <span>@Model.PostPrice.ToString("#,0") تومان</span>
+                                </li>
+                            </ul>
+                            </div>
+                            <div class="checkout-summary-devider">
+                                <div></div>
+                            </div>
+                            <div class="checkout-summary-content">
+                                <div class="checkout-summary-price-title">مبلغ قابل پرداخت:</div>
+                                <div class="checkout-summary-price-value">
+                                    <span class="checkout-summary-price-value-amount">@Model.PaymentPrice.ToString("#,0")</span>تومان
+                                </div>
+                                <a onclick="PaymentFactor()" class="btn btn-primary d-block w-full text-light">
+                                    ادامه ثبت سفارش
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</main>

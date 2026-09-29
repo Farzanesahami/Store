@@ -1,0 +1,62 @@
+﻿@model Query.Contract.UserPanel.User.UserInfoForPanelQueryModel
+@{
+    ViewData["Title"] = $"پنل کاربری {Model.FullName ?? ""} ";
+}
+<div class="row">
+
+    <div class="col-lg-6">
+        <div class="col-12">
+            <h1 class="title-tab-content">اطلاعات شخصی</h1>
+        </div>
+        <div class="content-section default">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <p>
+                        <span class="title">نام و نام خانوادگی :</span>
+                        <span>@Model.FullName</span>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p>
+                        <span class="title">پست الکترونیک :</span>
+                        <span>@Model.Email</span>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p>
+                        <span class="title">شماره تلفن همراه:</span>
+                        <span>@Model.Mobile</span>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p>
+                        <span class="title">جنسیت :</span>
+                        <span>@Model.UserGender.ToString().Replace("_"," ")</span>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p>
+                        <span class="title">تاریخ ثبت نام :</span>
+                        <span>@Model.CreationDate</span>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p>
+                        <span class="title">تراکنش ها :</span>
+                        <span> تعداد @Model.TransactionCount تراکنش به مبلغ 
+                            @Model.TransactionSum.ToString("#,0")  تومان</span>
+                    </p>
+                </div>
+                <div class="col-12 text-center">
+                    <a asp-action="EditProfile"
+                       class="btn-link-border form-account-link">
+                        ویرایش اطلاعات شخصی
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        @await Component.InvokeAsync("UserPanelWishList")
+    </div>
+</div>

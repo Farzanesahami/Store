@@ -1,0 +1,378 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Query\\Comments.Query.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Application.Contract\\Comments.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Application.Contract\\Comments.Application.Contract.csproj",
+        "projectName": "Comments.Application.Contract",
+        "projectPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Application.Contract\\Comments.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\FaFa PC\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FaFa PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Utility\\Shared\\Shared.csproj": {
+                "projectPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Utility\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Application\\Comments.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Application\\Comments.Application.csproj",
+        "projectName": "Comments.Application",
+        "projectPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Application\\Comments.Application.csproj",
+        "packagesPath": "C:\\Users\\FaFa PC\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FaFa PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Domain\\Comments.Domain.csproj": {
+                "projectPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Domain\\Comments.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Domain\\Comments.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Domain\\Comments.Domain.csproj",
+        "projectName": "Comments.Domain",
+        "projectPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Domain\\Comments.Domain.csproj",
+        "packagesPath": "C:\\Users\\FaFa PC\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FaFa PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Application.Contract\\Comments.Application.Contract.csproj": {
+                "projectPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Application.Contract\\Comments.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Infrastructure\\Comments.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Infrastructure\\Comments.Infrastructure.csproj",
+        "projectName": "Comments.Infrastructure",
+        "projectPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Infrastructure\\Comments.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\FaFa PC\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FaFa PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Application\\Comments.Application.csproj": {
+                "projectPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Application\\Comments.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Query\\Comments.Query.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Query\\Comments.Query.csproj",
+        "projectName": "Comments.Query",
+        "projectPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Query\\Comments.Query.csproj",
+        "packagesPath": "C:\\Users\\FaFa PC\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Query\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FaFa PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Infrastructure\\Comments.Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Comments\\Comments.Infrastructure\\Comments.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Utility\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Utility\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Utility\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\FaFa PC\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\Utility\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FaFa PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

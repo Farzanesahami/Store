@@ -1,0 +1,22 @@
+﻿@using Shared.Domain.Enum;
+@{
+    ViewData["Title"] = "Home Page";
+}
+@section Seo{
+    @await Component.InvokeAsync("Seo", new { ownerId = 0, where  = WhereSeo.Home ,title = "فروشگاه ساز"})
+}
+ <main class="main default">
+     <div class="container">
+        <cache expires-after="@TimeSpan.FromMinutes(2)">
+            @await Component.InvokeAsync("TopBaner")
+         </cache>
+        @await Component.InvokeAsync("Slider")
+        @await Component.InvokeAsync("AmazingSlider")
+        @await Component.InvokeAsync("CenterBaner4")
+        @await Component.InvokeAsync("BestProductSell")
+        @await Component.InvokeAsync("CenterBaner2")
+        @await Component.InvokeAsync("NewProduct")
+        @await Component.InvokeAsync("BottomBaner")
+        @await Component.InvokeAsync("BestProductVisit")
+     </div>
+</main>

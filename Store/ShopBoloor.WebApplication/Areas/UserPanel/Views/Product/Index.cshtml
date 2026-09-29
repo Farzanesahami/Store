@@ -1,0 +1,145 @@
+﻿@model Query.Contract.UserPanel.Seller.SellerProductPageUserPanelQueryModel
+@using Shared.Application;
+@{
+    ViewData["Title"] = "محصولات " + Model.SellerTitle;
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="col-12">
+            <h1 class="title-tab-content">@ViewData["Title"].ToString()</h1>
+            <a class="btn btn-success" asp-action="Create" asp-route-id="@Model.SellerId">
+                محصول جدید
+            </a>
+        </div>
+        <div class="content-section default">
+            <div class="table-responsive">
+                <table class="table table-order">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">عکس</th>
+                            <th scope="col">عنوان</th>
+                            <th scope="col"> واحد فروش</th>
+                            <th scope="col">موجودی</th>
+                            <th scope="col">وزن</th>
+                            <th scope="col">تعداد فروش</th>
+                            <th scope="col">فعال</th>
+                            <th scope="col">قیمت</th>
+                            <th scope="col">تخفیف ادمین</th>
+                            <th scope="col">تخفیف شما</th>
+                            <th scope="col">قیمت بعد از تخفیف</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.Products.Count() > 0)
+                        {
+                            foreach (var item in Model.Products)
+                            {
+
+                                <tr id="tr_@item.Id">
+                                    <td>
+                                        <img src="@FileDirectories.ProductImageDirectory100@item.ProductImageName" />
+                                    </td>
+                                    <td>
+                                        @item.ProductTitle
+                                    </td>
+                                    <td>@item.Unit</td>
+                                    <td>@item.Amount</td>
+                                    <td>@item.Weight</td>
+                                    <td>@item.SellCount</td>
+                                    <td>
+                                        @if (item.Active)
+                                        {
+                                            <span class="text-success">فعال</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-danger">غیر فعال</span>
+                                        }
+                                    </td>
+                                    <td>@item.Price.ToString("#,0")</td>
+                                    <td>@item.ProductDiscountPercent %</td>
+                                    <td>@item.ProductSellDiscountPercent %</td>
+                                    <td>@item.PriceAfterDiscount.ToString("#,0")</td>
+                                    <td>
+                                        @if(item.Active){
+                                            <a class="btn btn-danger btn-sm text-light" style="cursor:pointer"
+                                               onclick="AjaxSweetRefresh('غیر فعال کردن',
+                                               'بعد از غیر فعال کردن , محصول دیگر به نمایش در نمیآید و فروش آن بسته میشود ',
+                                               'warning','غیر فعال شود','فعال بماند',
+                                               '/UserPanel/Product/Active/@item.Id')">
+                                                غیر فعال ؟
+                                            </a>
+                                        }
+                                        else{
+                                            <a class="btn btn-success btn-sm text-light" style="cursor:pointer"
+                                               onclick="AjaxSweetRefresh(' فعال کردن',
+                                               'بعد از  فعال کردن , محصول  به نمایش در میآید و فروش آن آزاد میشود ',
+                                               'warning',' فعال شود','غیر فعال بماند',
+                                               '/UserPanel/Product/Active/@item.Id')">
+                                                 فعال ؟
+                                            </a>
+                                        }
+                                        <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.Id">
+                                            ویرایش
+                                        </a>
+                                        <a class="btn btn-warning btn-sm" onclick="OpenAjaxModal('/UserPanel/Discount/Create/@item.Id','افزودن تخفیف برای @item.Unit - @item.ProductTitle')">
+                                            ویرایش تخفیف
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="11" class="text-center text-danger">
+                                    محصولی برای نمایش موجود نیست
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div> 
+            @if (Model.PageCount > 1)
+            {
+                <div class="pager default text-center">
+                    <ul class="pager-items mb-0">
+                        <li>
+                            <a class="pager-item @(Model.PageId == 1 ? "is-active" : "")" style="cursor:pointer" href="/UserPanel/Product/Index/@Model.SellerId?pageId=1">1</a>
+                        </li>
+                        @for (int i = Model.StartPage; i <= Model.EndPage; i++)
+                        {
+                            if (i > 1)
+                            {
+                                if (i == Model.PageId)
+                                {
+                                    <li>
+                                        <a class="pager-item is-active">@i</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a class="pager-item" style="cursor:pointer" href="/UserPanel/Product/Index/@Model.SellerId?pageId=@i">@i</a>
+                                    </li>
+                                }
+                            }
+
+                        }
+                        @if (Model.PageId < Model.PageCount)
+                        {
+                            <line class="pager-items--partition"></line>
+                            <li>
+                                <a class="pager-next" style="cursor:pointer" href="/UserPanel/Product/Index/@Model.SellerId?pageId=@(Model.PageId + 1)"></a>
+                            </li>
+                        }
+                        <li>
+                            <a class="pager-item @(Model.PageId == Model.PageCount ? "is-active" : "")" style="cursor:pointer" href="/UserPanel/Product/Index/@Model.SellerId?pageId=@Model.PageCount">@Model.PageCount</a>
+                        </li>
+                    </ul>
+                </div>
+            }
+        </div>
+    </div>
+</div>

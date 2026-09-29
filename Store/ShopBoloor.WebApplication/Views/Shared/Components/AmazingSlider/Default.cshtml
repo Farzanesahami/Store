@@ -1,0 +1,158 @@
+﻿@model List<Query.Contract.UI.Product.AmazingSliderQueryModel>
+@if (Model.Count() > 0)
+{
+    var products = Model.ToArray();
+    <section id="amazing-slider" class="carousel slide carousel-fade card" data-ride="carousel">
+        <div class="row m-0">
+            <ol class="carousel-indicators pr-0 d-flex flex-column col-lg-3">
+                @for (int i = 0; i < products.Count(); i++)
+                {
+                    <li class="@(i == 0 ? "active" : "")" data-target="#amazing-slider" data-slide-to="@i">
+                        <span>@products[i].Title</span>
+                    </li>
+                }
+                @* <li class="view-all">
+                    <a href="#" class="btn btn-primary btn-block hvr-sweep-to-left">
+                        <i class="fa fa-arrow-left"></i>مشاهده همه شگفت انگیزها
+                    </a>
+                </li> *@
+            </ol>
+            <div class="carousel-inner p-0 col-12 col-lg-9">
+                <img class="amazing-title" src="/Assets/img/amazing-slider/amazing-title-01.png" alt="">
+                @for (int i = 0; i < products.Count(); i++)
+                {
+                    <div class="carousel-item @(i == 0 ? "active" : "") @(products[i].IsFinished ? "finished" : "")">
+                        <div class="row m-0">
+                            <div class="right-col col-5 d-flex align-items-center">
+                                <a class="w-100 text-center" href="/Product/@products[i].Id/@products[i].Slug">
+                                    <img src="@products[i].ImageName" class="img-fluid"
+                                    alt="@products[i].ImageAlt">
+                                </a>
+                            </div>
+                            <div class="left-col col-7">
+                                <div class="price">
+                                    <del><span>@products[i].Price.ToString("#,0")<span>تومان</span></span></del>
+                                    <ins><span>@products[i].PriceAfterOff.ToString("#,0")<span>تومان</span></span></ins>
+                                    <span class="discount-percent">@products[i].Percent % تخفیف</span>
+                                </div>
+                                <h2 class="product-title">
+                                    <a href="/Product/@products[i].Id/@products[i].Slug"> @products[i].Title </a>
+                                </h2>
+                                <ul class="list-group">
+                                    @foreach (var item in products[i].Features)
+                                    {
+                                        <li class="list-group-item">@item.Title : @item.Value</li>
+                                    }
+                                </ul>
+                                <hr>
+                                @if(products[i].IsFinished){
+                                    <a href="/Product/@products[i].Id/@products[i].Slug" class="finished btn"> تمام شد </a>
+                                }
+                                else{
+                                    string date = products[i].EndDate.ToString("MM dd yyyy 23:55:55");
+                                    <div class="countdown-timer" countdown data-date="@date">
+                                        <span data-days>0</span>:
+                                        <span data-hours>0</span>:
+                                        <span data-minutes>0</span>:
+                                        <span data-seconds>0</span>
+                                    </div>
+                                    <div class="timer-title">زمان باقی مانده تا پایان سفارش</div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <div class="row" id="amazing-slider-responsive">
+        <div class="col-12">
+            <div class="widget widget-product card">
+                <header class="card-header">
+                    <img src="/Assets/img/amazing-slider/amazing-title-01.png" width="150px" alt="">
+                </header>
+                <div class="product-carousel owl-carousel owl-theme">
+                    @foreach (var item in Model.Where(c => c.IsFinished == false))
+                    {
+                        <div class="item">
+                            <div class="el-product-card">
+                                <div class="el-product-thumbnail">
+                                    <a href="/Product/@item.Id/@item.Slug">
+                                        <img src="@item.ImageName" alt="@item.ImageAlt">
+                                    </a>
+                                    <div class="el-product-actions">
+                                        <ul>
+                                            <li>
+                                                @{
+                                                    string wishTitle = !item.isWishList ? "افزودن به لیست علاقمندی" : "حذف از لیست علاقمندی";
+                                                }
+                                                <a onclick="UbsertToWishList('@item.Id')" style="cursor:pointer !important" data-toggle="tooltip"
+                                                   data-placement="bottom"
+                                                   title="@wishTitle">
+                                                    <i class="fad fa-heart" style=@(item.isWishList ? "color:green;" : "color:red;")></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/Product/@item.Id/@item.Slug" data-toggle="tooltip" data-placement="bottom"
+                                                   title="جزییات و خرید">
+                                                    <i class="fad fa-eye"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="el-product-card-body">
+                                    <div class="el-product-title">
+                                        <h6>
+                                            <a href="/Product/@item.Id/@item.Slug">
+                                               @item.Title
+                                            </a>
+                                        </h6>
+                                    </div>
+                                    <div class="el-product-info">
+                                        <div class="el-product-status">
+                                            <i class="fad fa-box-check"></i> موجود
+                                            در انبار
+                                        </div>
+                                        <div class="el-product-rating">
+                                            <i class="fas fa-stars star"></i>
+                                            <strong>۴.۴</strong>
+                                            <span>(@item.Amount)</span>
+                                        </div>
+                                    </div>
+                                    <div class="el-product-price">
+                                        @if (item.Price > item.PriceAfterOff)
+                                        {
+                                            <del class="text-danger">
+                                                @item.Price.ToString("#,0")
+                                            </del>
+                                            <br />
+                                            <span class="el-price-value">@item.PriceAfterOff.ToString("#,0")</span>
+                                            <span class="el-price-currency">تومان</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="el-price-value">@item.Price.ToString("#,0")</span>
+                                            <span class="el-price-currency">تومان</span>
+                                        }
+                                    </div>
+                                </div>
+                                <div class="el-product-card-footer">
+                                    <div class="el-product-seller-details">
+                                        <i class="fad fa-store-alt"></i>
+                                        <span class="el-product-seller-details-label">فروشنده:</span>
+                                        <span class="el-product-seller-details--name">@item.Shop</span>
+                                        <img src=".//Assets/img/seller-logo-small.svg"
+                                             class="el-product-seller-details--logo-small"
+                                             alt="seller-details--logo-small">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}

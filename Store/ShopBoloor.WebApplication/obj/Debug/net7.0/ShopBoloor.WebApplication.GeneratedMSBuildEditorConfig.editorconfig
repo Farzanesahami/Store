@@ -1,0 +1,817 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ShopBoloor.WebApplication
+build_property.RootNamespace = ShopBoloor.WebApplication
+build_property.ProjectDir = c:\Users\FaFa PC\Desktop\Itechnology-master\Itechnology-master\Src\Infrastructure\Services\Downloads\Store\Store\ShopBoloor.WebApplication\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\FaFa PC\Desktop\Itechnology-master\Itechnology-master\Src\Infrastructure\Services\Downloads\Store\Store\ShopBoloor.WebApplication
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Baner/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFuZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Baner/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFuZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Baner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFuZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/BlogCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ0NhdGVnb3J5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/BlogCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ0NhdGVnb3J5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/BlogCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ0NhdGVnb3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Blog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Blog/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/City/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/City/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/City/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Comment/UnSeen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxVblNlZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/EmailUser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1haWxVc2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Menu/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Menu/CreateSub.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudVxDcmVhdGVTdWIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Menu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Message/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVzc2FnZVxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Message/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVzc2FnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/OrderDiscount/Active.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJEaXNjb3VudFxBY3RpdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/OrderDiscount/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJEaXNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/OrderDiscount/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJEaXNjb3VudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/OrderDiscount/InActive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJEaXNjb3VudFxJbkFjdGl2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Order/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Package/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFja2FnZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Package/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFja2FnZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Package/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFja2FnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/PostPrice/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdFByaWNlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/PostPrice/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdFByaWNlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/PostPrice/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdFByaWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Post/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Post/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Post/Setting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdFxTZXR0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/ProductCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdENhdGVnb3J5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/ProductCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdENhdGVnb3J5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/ProductCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdENhdGVnb3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/ProductDiscount/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdERpc2NvdW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/ProductFeature/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEZlYXR1cmVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/ProductFeature/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEZlYXR1cmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/ProductGallery/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEdhbGxlcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/ProductGallery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEdhbGxlcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Role/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Seller/Accept.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VsbGVyXEFjY2VwdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Seller/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VsbGVyXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Seller/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VsbGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Seller/Reject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VsbGVyXFJlamVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Seller/Request.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VsbGVyXFJlcXVlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Seller/Requests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VsbGVyXFJlcXVlc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/SendEmail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VuZEVtYWlsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/SendEmail/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VuZEVtYWlsXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/SendEmail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VuZEVtYWlsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Seo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Shared/_AdminFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Shared/_AdminHead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkhlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Shared/_AdminHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Shared/_AdminJs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkpzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Shared/_AdminSidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pblNpZGViYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/SitePage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l0ZVBhZ2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/SitePage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l0ZVBhZ2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/SitePage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l0ZVBhZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/SiteService/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l0ZVNlcnZpY2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/SiteService/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l0ZVNlcnZpY2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/SiteService/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l0ZVNlcnZpY2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Site/CreateImage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l0ZVxDcmVhdGVJbWFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Site/Images.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l0ZVxJbWFnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Site/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Slider/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Slider/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Slider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/State/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhdGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/State/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhdGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/State/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhdGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Wallet/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcV2FsbGV0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Wallet/Transaction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcV2FsbGV0XFRyYW5zYWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/Wallet/Wallets.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcV2FsbGV0XFdhbGxldHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Address/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXEFkZHJlc3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Address/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXEFkZHJlc3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Discount/Active.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXERpc2NvdW50XEFjdGl2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Discount/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXERpc2NvdW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Discount/CreateDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXERpc2NvdW50XENyZWF0ZURpc2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Discount/EditDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXERpc2NvdW50XEVkaXREaXNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Discount/InActive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXERpc2NvdW50XEluQWN0aXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Home/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXEhvbWVcRWRpdFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/OrderSeller/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXE9yZGVyU2VsbGVyXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/OrderSeller/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXE9yZGVyU2VsbGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Order/AddOrderAddress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXE9yZGVyXEFkZE9yZGVyQWRkcmVzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Order/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXE9yZGVyXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Order/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXE9yZGVyXE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Order/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXE9yZGVyXE9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/PostOrder/Basket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFBvc3RPcmRlclxCYXNrZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/PostOrder/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFBvc3RPcmRlclxPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/PostOrder/UserPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFBvc3RPcmRlclxVc2VyUG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFByb2R1Y3RcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFByb2R1Y3RcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFByb2R1Y3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Seller/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNlbGxlclxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Seller/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNlbGxlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Seller/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNlbGxlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Seller/Request.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNlbGxlclxSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Shared/_UserPanelLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNoYXJlZFxfVXNlclBhbmVsTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Store/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFN0b3JlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Store/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFN0b3JlXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Store/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFN0b3JlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Wallet/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFdhbGxldFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/Wallet/Transactions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFdhbGxldFxUcmFuc2FjdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Areas/UserPanel/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Auth/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Auth/LoginUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpblVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Blog/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Blog/Blogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Home/Page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Home/WishList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXaXNoTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/AdminData/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWRtaW5EYXRhXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/AdminLastOrder/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWRtaW5MYXN0T3JkZXJcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/AdminLastUser/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWRtaW5MYXN0VXNlclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/AmazingSlider/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQW1hemluZ1NsaWRlclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/BestBlogMag/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmVzdEJsb2dNYWdcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/BestBlogSliderMag/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmVzdEJsb2dTbGlkZXJNYWdcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/BestProductSell/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmVzdFByb2R1Y3RTZWxsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/BestProductVisit/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmVzdFByb2R1Y3RWaXNpdFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/BlogSocial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmxvZ1NvY2lhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/BottomBaner/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQm90dG9tQmFuZXJcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/ButtomBanerBlog/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQnV0dG9tQmFuZXJCbG9nXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/CenterBaner2/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2VudGVyQmFuZXIyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/CenterBaner4/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2VudGVyQmFuZXI0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/ContactFooter/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ29udGFjdEZvb3RlclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/Fav/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRmF2XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/Footer/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/LastBlog/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGFzdEJsb2dcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/LeftBanerBlog/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGVmdEJhbmVyQmxvZ1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/LogoBlog/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9nb0Jsb2dcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/LogoHeader/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9nb0hlYWRlclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/LogoResponsiveHeader/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9nb1Jlc3BvbnNpdmVIZWFkZXJcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/LogoResponsiveMenuHeader/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9nb1Jlc3BvbnNpdmVNZW51SGVhZGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/MenuBlogMobile/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudUJsb2dNb2JpbGVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/MenuBlog/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudUJsb2dcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/MenuFooter/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudUZvb3RlclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/MenuIndex/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudUluZGV4XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/MenuResponsiveIndex/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudVJlc3BvbnNpdmVJbmRleFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/NewProduct/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmV3UHJvZHVjdFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/ProductSingleGallery/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdFNpbmdsZUdhbGxlcnlcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/Seo/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VvXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/Services/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VydmljZXNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/Slider/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2xpZGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/Social/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU29jaWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/TopBaner/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVG9wQmFuZXJcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/UserPanelSidebar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlclBhbmVsU2lkZWJhclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Components/UserPanelWishList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlclBhbmVsV2lzaExpc3RcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_AuthFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRoRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRoTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_BlogCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CbG9nQ2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_BreadCrumb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CcmVhZENydW1iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_Colors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db2xvcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_Css.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Dc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_HeaderResponsive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJSZXNwb25zaXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_Js.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Kcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_Loading.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2FkaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_MagBreadCrumb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWdCcmVhZENydW1iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_MagLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWdMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_ProductBreadCrumb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0QnJlYWRDcnVtYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_Seo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_ShopBreadCrumb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaG9wQnJlYWRDcnVtYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_ShopCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaG9wQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_ShopSlideCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaG9wU2xpZGVDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shop/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shop/Single.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxTaW5nbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Wallet/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FsbGV0XFBheW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/FaFa PC/Desktop/Itechnology-master/Itechnology-master/Src/Infrastructure/Services/Downloads/Store/Store/ShopBoloor.WebApplication/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ok8anj9mo3

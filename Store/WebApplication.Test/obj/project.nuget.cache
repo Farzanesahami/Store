@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fk1q5sPDKcQhvBw1jUlNGKW3gS9VV93KKK3RC9/CVZmqJiKZQCwfmR4vRGODGUiiZvm/Pi4nLpky9Ekikp8a8w==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\FaFa PC\\Desktop\\Itechnology-master\\Itechnology-master\\Src\\Infrastructure\\Services\\Downloads\\Store\\Store\\WebApplication.Test\\WebApplication.Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FaFa PC\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

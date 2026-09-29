@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MagLayout.cshtml";
+}
+@await Component.InvokeAsync("LastBlog")
+@await Component.InvokeAsync("BestBlogMag")
+<!-- Trending Now -->
+
+
+<!-- Featured Posts Grid -->
+ <!-- end featured posts grid -->
+
+<div class="main-container container pt-24" id="main-container">
+
+    <!-- Content -->
+    <div class="row">
+
+        <!-- Posts -->
+        <div class="col-lg-8 blog__content">
+
+            <!-- Latest News -->
+            <section class="section tab-post mb-16">
+                <div class="title-wrap title-wrap--line">
+                    <h3 class="section-title">آخرین عنوان ها</h3>
+
+                    <div class="tabs tab-post__tabs" >
+                        <ul class="tabs__list"  id="parentBestBlogUL">
+                           
+                        </ul> 
+                    </div>
+                </div>
+
+                <!-- tab content -->
+                <div class="tabs__content tabs__content-trigger tab-post__tabs-content" id="childBestBlogDiv">
+
+                  
+                </div> <!-- end tab content -->
+            </section> <!-- end latest news -->
+
+        </div> <!-- end posts -->
+        <!-- Sidebar -->
+        <aside class="col-lg-4 sidebar sidebar--right">
+
+            <aside class="widget widget_mc4wp_form_widget">
+                <h4 class="widget-title">خبرنامه</h4>
+                <p class="newsletter__text">
+                    <i class="ui-email newsletter__icon"></i>
+                    برای اطلاع از آخرین خبرها مشترک شوید
+                </p>
+                <div class="mc4wp-form">
+                    <div class="mc4wp-form-fields">
+                        <div class="form-group d-flex">
+                            <input type="email" id="inputEmailUser" placeholder="ایمیل">
+                            <button onclick="AddEmailUser()" class="btn btn-lg btn-color">عضویت</button>
+                        </div>
+                    </div>
+
+                    <span class="text-danger" id="inputEmailUserValid"></span>
+                </div>
+            </aside> <!-- end widget newsletter -->
+            @await Component.InvokeAsync("LeftBanerBlog")
+        </aside> 
+    </div> <!-- end content -->
+    <!-- Ad Banner 728 -->
+    @await Component.InvokeAsync("ButtomBanerBlog")
+    @await Component.InvokeAsync("BestBlogSliderMag")
+    
+     
+   
+</div> 
+@section Scripts{
+    <script>
+        $(function(){
+            GetBestBlogs();
+        })
+    </script>
+}
